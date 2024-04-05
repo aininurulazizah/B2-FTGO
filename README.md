@@ -89,113 +89,113 @@ Selanjutnya dilakukan pengujian untuk layanan Create Order, Revise Order, dan Ca
 
  2. Create Order Invalid consumerId field data test
 ```
-	{
-	  “consumerId”:”asdfghjkl”,
-	  “deliveryAddress”: {
-	     “city”: “Bandung”,
-	     “state” : “Indonesia”,
-	     “street1”: “Jalan Gelatik”,
-	     “street2”: “Jalan Merpati”,
-	     “zip”: “15413”
-	  },
-	  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
-	  “lineItems”: [
-	    {
-	      “menuItemId”: “001”,
-	       “quantity”: 2
-	    }
-	   ],
-	   “restaurantId”: 1
-	}
+{
+  “consumerId”:”asdfghjkl”,
+  “deliveryAddress”: {
+     “city”: “Bandung”,
+     “state” : “Indonesia”,
+     “street1”: “Jalan Gelatik”,
+     “street2”: “Jalan Merpati”,
+     “zip”: “15413”
+  },
+  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
+  “lineItems”: [
+    {
+      “menuItemId”: “001”,
+       “quantity”: 2
+    }
+   ],
+   “restaurantId”: 1
+}
 
 ```
 
 3. Create order Invalid quantity field data test
 ```
-	{
-	  “consumerId”: 1,
-	  “deliveryAddress”: {
-	     “city”: “Bandung”,
-	     “state” : “Indonesia”,
-	     “street1”: “Jalan Gelatik”,
-	     “street2”: “Jalan Merpati”,
-	     “zip”: “15413”
-	  },
-	  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
-	  “lineItems”: [
-	    {
-	      “menuItemId”: “001”,
-	      “quantity”: “asdfghjkl”
-	    }
-	   ],
-	   “restaurantId”: 1
-	}
+{
+  “consumerId”: 1,
+  “deliveryAddress”: {
+     “city”: “Bandung”,
+     “state” : “Indonesia”,
+     “street1”: “Jalan Gelatik”,
+     “street2”: “Jalan Merpati”,
+     “zip”: “15413”
+  },
+  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
+  “lineItems”: [
+    {
+      “menuItemId”: “001”,
+      “quantity”: “asdfghjkl”
+    }
+   ],
+   “restaurantId”: 1
+}
 ```
 
 4. Create Order Invalid restaurantId field data test
 ```
-	{
-	  “consumerId”: 1,
-	  “deliveryAddress”: {
-	     “city”: “Bandung”,
-	     “state” : “Indonesia”,
-	     “street1”: “Jalan Gelatik”,
-	     “street2”: “Jalan Merpati”,
-	     “zip”: “15413”
-	  },
-	  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
-	  “lineItems”: [
-	    {
-	      “menuItemId”: “001”,
-	      “quantity”: 2
-	    }
-	   ],
-	   “restaurantId”: “asdfghjkl”
-	}
+{
+  “consumerId”: 1,
+  “deliveryAddress”: {
+     “city”: “Bandung”,
+     “state” : “Indonesia”,
+     “street1”: “Jalan Gelatik”,
+     “street2”: “Jalan Merpati”,
+     “zip”: “15413”
+  },
+  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
+  “lineItems”: [
+    {
+      “menuItemId”: “001”,
+      “quantity”: 2
+    }
+   ],
+   “restaurantId”: “asdfghjkl”
+}
 ```
 
 5. Create order Invalid (menuItem haven't registered)
 ```
-	{
-	  “consumerId”: 1,
-	  “deliveryAddress”: {
-	     “city”: “Bandung”,
-	     “state” : “Indonesia”,
-	     “street1”: “Jalan Gelatik”,
-	     “street2”: “Jalan Merpati”,
-	     “zip”: “15413”
-	  },
-	  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
-	  “lineItems”: [
-	    {
-	      “menuItemId”: “020”,
-	      “quantity”: 2
-	    }
-	   ],
-	   “restaurantId”: 1
-	}
+{
+  “consumerId”: 1,
+  “deliveryAddress”: {
+     “city”: “Bandung”,
+     “state” : “Indonesia”,
+     “street1”: “Jalan Gelatik”,
+     “street2”: “Jalan Merpati”,
+     “zip”: “15413”
+  },
+  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
+  “lineItems”: [
+    {
+      “menuItemId”: “020”,
+      “quantity”: 2
+    }
+   ],
+   “restaurantId”: 1
+}	
 ```
 
 6. Create order Invalid (restaurant haven't registered)
 ```
-	{
-	 “consumerId”: 1,
-	  “deliveryAddress”: {
-	     “city”: “Bandung”,
-	     “state” : “Indonesia”,
-	     “street1”: “Jalan Gelatik”,
-	     “street2”: “Jalan Merpati”,
-	     “zip”: “15413”
-	  },
-	  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
-	  “lineItems”: [
-	    {
-	      “menuItemId”: “020”,
-	      “quantity”: 2
-	    }
-	   ],
-	   “restaurantId”: 55
-	}
+{
+ “consumerId”: 1,
+  “deliveryAddress”: {
+     “city”: “Bandung”,
+     “state” : “Indonesia”,
+     “street1”: “Jalan Gelatik”,
+     “street2”: “Jalan Merpati”,
+     “zip”: “15413”
+  },
+  “deliveryTime”: “2024-04-04T16:16:00.125Z”,
+  “lineItems”: [
+    {
+      “menuItemId”: “020”,
+      “quantity”: 2
+    }
+   ],
+   “restaurantId”: 55
+}
 ```
 
 **Output**
