@@ -217,3 +217,79 @@ Selanjutnya dilakukan pengujian untuk layanan Create Order, Revise Order, dan Ca
 
   6. Create order Invalid (restaurant haven't registered)
 ![order6](https://github.com/aininurulazizah/B2-FTGO/assets/95131818/7a0b4ccc-9d77-4955-84b1-f0b29e5b3d3c)
+
+**2. Revise Order**
+	
+ **Endpoint**
+  	POST : http://localhost:8082/orders/{orderId}/revise
+   
+ **Data To Input**
+ 1. Revise order Valid data test
+ 	orderId: 12
+  ```
+	{
+   “ReviseOrderLineItems”: [
+     {
+      “menuItemId”: “001”,
+      “quantity”: 4
+     }
+   ]
+}
+  ```
+
+2. Revise order Invalid data type for data test (menuItemId)
+  	orderId: 12
+  ```
+{
+   “ReviseOrderLineItems”: [
+     {
+      “menuItemId”: 002,
+      “quantity”: 2
+     }
+   ]
+}
+
+  ``` 
+3. Revise order what if quantity = 0
+    	orderId: 12
+  ```
+{
+   “ReviseOrderLineItems”: [
+     {
+      “menuItemId”: “001”,
+      “quantity”: 0
+     }
+   ]
+}
+  ```
+**Output**
+1. Revise order Valid data test
+2. Revise order Invalid data type for data test (menuItemId)
+3. Revise order what if quantity = 0
+
+**3. Cancel Order**
+	
+ **Endpoint**
+  	POST : http://localhost:8082/orders/{orderId}/cancel
+   
+ **Data To Input**
+ 1. Canceling the order (orderId-nya ada)
+  ```
+{
+   “orderId”:4  
+}
+
+  ```
+
+2. Canceling the order (orderId-nya tidak ada)
+  ```
+{
+   “orderId”:10 
+}
+  ``` 
+
+**Output**
+1. Canceling the order (orderId-nya ada)
+2. Canceling the order (orderId-nya tidak ada)
+
+
