@@ -10,7 +10,7 @@ Sebelum menguji layanan order, diperlukan data consumer dan restaurant terlebih 
 
   **Data To Input**
   
-	  {
+	{
 	   “Name”: {
 	      “firstName”: “Gian”,
 	      “lastName”: “Sandrova”
@@ -18,4 +18,7 @@ Sebelum menguji layanan order, diperlukan data consumer dan restaurant terlebih 
 	}
 
 **Output**
+
+![WhatsApp Image 2024-04-05 at 9 46 52 PM](https://github.com/aininurulazizah/B2-FTGO/assets/95160599/a21574d0-35ae-434f-bbaf-dade76969f1e)
+
 
