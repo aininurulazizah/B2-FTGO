@@ -200,3 +200,20 @@ Selanjutnya dilakukan pengujian untuk layanan Create Order, Revise Order, dan Ca
 
 **Output**
 
+  1. Create ordeer Valid data test
+![order1](https://github.com/aininurulazizah/B2-FTGO/assets/95131818/b6433819-8bfc-4779-80f2-36dfb7357ee2)
+     
+  2. Create Order Invalid consumerId field data test
+![order2](https://github.com/aininurulazizah/B2-FTGO/assets/95131818/134444be-ddb8-4285-9546-28cbd798ebb1)
+
+  3. Create order Invalid quantity field data test
+![order3](https://github.com/aininurulazizah/B2-FTGO/assets/95131818/18b837ad-c8d7-47bc-8648-71295c8438d2)
+
+  4. Create Order Invalid restaurantId field data test
+![order4](https://github.com/aininurulazizah/B2-FTGO/assets/95131818/7ab0a741-9227-46bf-a241-ca4706c4e87f)
+
+  5. Create order Invalid (menuItem haven't registered)
+![order5](https://github.com/aininurulazizah/B2-FTGO/assets/95131818/7359f907-9071-4b3d-9679-a6da9675e78a)
+
+  6. Create order Invalid (restaurant haven't registered)
+![order6](https://github.com/aininurulazizah/B2-FTGO/assets/95131818/7a0b4ccc-9d77-4955-84b1-f0b29e5b3d3c)
