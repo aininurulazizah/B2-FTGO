@@ -264,8 +264,14 @@ Selanjutnya dilakukan pengujian untuk layanan Create Order, Revise Order, dan Ca
   ```
 **Output**
 1. Revise order Valid data test
+![WhatsApp Image 2024-04-05 at 21 59 58 (2)](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/68ee67a5-409d-4cea-aa50-ef3d46e6e071)
+
 2. Revise order Invalid data type for data test (menuItemId)
+![WhatsApp Image 2024-04-05 at 21 59 58 (1)](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/078b7b1b-4810-4dc0-a5b9-e8bcfdd50421)
+
 3. Revise order what if quantity = 0
+![WhatsApp Image 2024-04-05 at 21 59 58](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/c859815c-2735-4f5e-a778-53d28fca9ccf)
+
 
 **3. Cancel Order**
 	
@@ -290,6 +296,10 @@ Selanjutnya dilakukan pengujian untuk layanan Create Order, Revise Order, dan Ca
 
 **Output**
 1. Canceling the order (orderId-nya ada)
+![WhatsApp Image 2024-04-05 at 22 01 26 (1)](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/318c137a-2d27-4f03-a6f8-cfffb66b1529)
+
 2. Canceling the order (orderId-nya tidak ada)
+![WhatsApp Image 2024-04-05 at 22 01 26](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/e58b28a4-c851-47a9-9ef8-db8aeb775566)
+![WhatsApp Image 2024-04-05 at 22 01 26 (1)](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/9bb20401-7e95-4a39-8c0d-1aa3285a5a94)
 
 
