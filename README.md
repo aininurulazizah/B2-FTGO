@@ -19,6 +19,8 @@ Sebelum menguji layanan order, diperlukan data consumer dan restaurant terlebih 
 
 **Output**
 
-![WhatsApp Image 2024-04-05 at 9 46 52 PM](https://github.com/aininurulazizah/B2-FTGO/assets/95160599/a21574d0-35ae-434f-bbaf-dade76969f1e)
+![WhatsApp Image 2024-04-05 at 9 52 43 PM](https://github.com/aininurulazizah/B2-FTGO/assets/95160599/1e7f1cfd-65c6-4887-9831-200d4eba43d6)
+
+![WhatsApp Image 2024-04-05 at 9 54 01 PM](https://github.com/aininurulazizah/B2-FTGO/assets/95160599/3161fec8-b25d-4fcc-9d7c-e74cef6e0e52)
 
 
