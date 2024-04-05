@@ -296,10 +296,8 @@ Selanjutnya dilakukan pengujian untuk layanan Create Order, Revise Order, dan Ca
 
 **Output**
 1. Canceling the order (orderId-nya ada)
-![WhatsApp Image 2024-04-05 at 22 01 26 (1)](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/318c137a-2d27-4f03-a6f8-cfffb66b1529)
-
-2. Canceling the order (orderId-nya tidak ada)
 ![WhatsApp Image 2024-04-05 at 22 01 26](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/e58b28a4-c851-47a9-9ef8-db8aeb775566)
 ![WhatsApp Image 2024-04-05 at 22 01 26 (1)](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/9bb20401-7e95-4a39-8c0d-1aa3285a5a94)
 
-
+2. Canceling the order (orderId-nya tidak ada)
+![WhatsApp Image 2024-04-05 at 22 01 26 (2)](https://github.com/aininurulazizah/B2-FTGO/assets/95170161/829a53e2-6ca2-4cb6-a5d1-e49df9cccc59)
